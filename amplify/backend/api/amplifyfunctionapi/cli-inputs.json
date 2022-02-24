@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "amplifyfunctionapi",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/yuhei/ghq/github.com/yuuu/amplify-function-api/amplify/backend/api/amplifyfunctionapi/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AWS_IAM"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authamplifyfunctionapi993d1923"
+      }
+    ]
+  }
+}
